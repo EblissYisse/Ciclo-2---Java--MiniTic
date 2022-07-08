@@ -1,7 +1,57 @@
+
+Comentarios
+
+// Este es un comentario de línea
+
+/*
+Este es un comentario de bloque
+Todo dentro de estos símbolos es ignorado
+*/
+
 /**
- * Estos son comentarios de linea
- * @author Segov
- */
+* Este es un comentario de documentación.
+* Se usa para el Javadoc de nuestro proyecto, para documentar el proyecto.
+*/
+
+Sentencias
+
+Son instrucciones que le damos al programa, como crear una variable, imprimir en pantalla, y esta se termina cuando se encuentra un ;
+
+ * Las sentencias acaban con punto y coma (;). Este carácter separa una sentencia de la siguiente.
+ * Los espacios en blanco solo son necesarios para la legibilidad, no importa en la interpretación del código.
+ 
+ Ejemplos
+
+int i=1;
+import java.awt.*;
+System.out.println("El primer programa");
+rect.mover(10, 20);
+
+ Definición de variables
+ 
+* Todas las variables que se crean se deben  inicializar y decidir el tipo de dato y este tipo no cambiará en todo el programa.
+* Todas las variables han de declararse antes de usarlas.
+
+La declaración consiste en una sentencia en la que figura, el tipo de dato y el nombre que asignamos a la variable.
+OJO: El tipo de dato de la variable no cambiará después de creada.
+Una vez declarada se le podrá asignar valores.
+
+Ejemplo:
+int x=0;
+String nombre="Angel";
+double a=3.5;
+boolean bNuevo=true;
+int[] datos;
+ 
+Nota: A partir de Java 10 podremos utilizar la palabra reservada var para crear objetos sin tener que definir el tipo.
+Java va a inferir el tipo de dato que será la variable a partir del valor que sea asignada al momento de la creación.
+Si no asigna un valor, no se podrá inferir el tipo, por lo tanto no se podrá usar var.
+Ejemplo:
+var number = 0;
+var list = List.of(1, 2, 3);
+var example = "example";
+var team = new Team();
+
  
 Public class: solo contiene lo que esta en los parentesis
  * Una clase puede tener atributo(caracteristicas de la clase) o metodos (acciones, sumar, restar, imprimir, etc) o puede tener ambos
