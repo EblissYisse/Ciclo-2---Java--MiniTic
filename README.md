@@ -1,6 +1,7 @@
-# Ciclo-2 Java - MiniTic
+# Misión-TIC-2022-C2-JAVA.
 
-Este repositorio contiene notas, ejercicios y muchas cosas mas, realizadas en las clases de programación asica con el Profesor Fadul principalmente.
+
+Este repositorio contiene notas, ejercicios y muchas cosas mas, realizadas en las clases de Programación Basica con los profesores Fadul y Carlos Diaz.
 
 
 ### Entorno
