@@ -1,0 +1,14 @@
+/**
+ * Estos son comentarios de linea
+ * @author Segov
+ */
+ 
+Public class: solo contiene lo que esta en los parentesis
+ * Una clase puede tener atributo(caracteristicas de la clase) o metodos (acciones, sumar, restar, imprimir, etc) o puede tener ambos
+ * Metodo main : metodo ejecutable, GENERALMETE ES LA ENTRADA AL PROYECT0 QUE SE ESTA DESARROLLANDO
+ * void (vacio) : funcion que no devuelve nada
+ 
+ Herencia
+ * Podemos sobrescribir (cambiar los metodos) que dejo la clase madre, de donde salio el objeto
+ * Adionar o quitar metodos
+ 
